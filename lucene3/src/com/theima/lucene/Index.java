@@ -75,6 +75,7 @@ public class Index {
             Document document = indexSearcher.doc(docId);
             //输出打印document对象名字域内的内容
             System.out.println(document.getField("fileContentField"));
+			 System.out.println(document.getField("fileContentField"));
         }
     }
     @Test
