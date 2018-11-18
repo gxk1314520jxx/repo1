@@ -35,8 +35,12 @@ public class Index {
         tokenStream.reset();
         //遍历tokenStream,通过incrementToken方法判断列表是否结束
         while (tokenStream.incrementToken()) {
-           System.out.println("结束" + "我爱靳雪霞");
+
+            System.out.println(offsetAttribute.startOffset());
+            //控制台打印出关键词
+
             System.out.println("结束" + "-------------------------------");
+			  System.out.println("结束" + "我爱靳雪霞");
 			  System.out.println("结束" + "我爱靳雪霞");
         }
     }
