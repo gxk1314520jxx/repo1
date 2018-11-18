@@ -37,8 +37,7 @@ public class Index {
         while (tokenStream.incrementToken()) {
             System.out.println(offsetAttribute.startOffset());
             //控制台打印出关键词
-            System.out.println(charTermAttribute);
-            System.out.println(offsetAttribute.endOffset());
+           
             System.out.println("结束" + "-------------------------------");
         }
     }
