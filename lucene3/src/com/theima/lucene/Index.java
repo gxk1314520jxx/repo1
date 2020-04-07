@@ -25,6 +25,9 @@ public class Index {
     public void testIKAnalyzer() throws IOException {
         //创建IKAnalyzer对象
         IKAnalyzer analyzer = new IKAnalyzer();
+        IKAnalyzer analyzer = new IKAnalyzer();
+
+
         //基于analyzer创建TokenStream对象
         TokenStream tokenStream = analyzer.tokenStream("IKAnalyzer", "靳雪霞荣获河南理工大学奖学金");
         //添加指引,相当于一个指针,获取关键字
