@@ -40,6 +40,8 @@ public class Index {
             //控制台打印出关键词
 
             System.out.println("结束" + "-------------------------------");
+
+            System.out.println("结束" + "-------------------------------");
 			  System.out.println("结束" + "我爱靳雪霞");
 			  System.out.println("结束" + "我爱靳雪霞");
         }
