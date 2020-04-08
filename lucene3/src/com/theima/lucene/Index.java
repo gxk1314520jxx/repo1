@@ -30,7 +30,7 @@ public class Index {
         tokenStream.reset();
         //遍历tokenStream,通过incrementToken方法判断列表是否结束
         while (tokenStream.incrementToken()) {
-            System.out.println("测试2");
+            System.out.println("测试了");
         }
     }
 
